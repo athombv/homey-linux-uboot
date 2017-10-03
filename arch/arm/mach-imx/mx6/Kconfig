@@ -167,6 +167,11 @@ config TARGET_MX6CUBOXI
 	bool "Solid-run mx6 boards"
 	select BOARD_LATE_INIT
 	select SUPPORT_SPL
+	
+config TARGET_MX6HOMEY
+	bool "Athom Homey board"
+	select BOARD_LATE_INIT
+	select SUPPORT_SPL
 
 config TARGET_MX6LOGICPD
 	bool "Logic PD i.MX6 SOM"
@@ -453,6 +458,7 @@ source "board/liebherr/mccmon6/Kconfig"
 source "board/logicpd/imx6/Kconfig"
 source "board/seco/Kconfig"
 source "board/solidrun/mx6cuboxi/Kconfig"
+source "board/athom/mx6homey/Kconfig"
 source "board/technexion/pico-imx6ul/Kconfig"
 source "board/tbs/tbs2910/Kconfig"
 source "board/tqc/tqma6/Kconfig"

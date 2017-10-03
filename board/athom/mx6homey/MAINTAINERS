@@ -1,0 +1,6 @@
+ATHOM HOMEY BOARD
+M:	Jeroen Vollenbrock <jeroen@athom.com>
+S:	Maintained
+F:	board/athom/homey/
+F:	include/configs/mx6homey.h
+F:	configs/mx6homey_defconfig
